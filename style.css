@@ -17,7 +17,7 @@ nav {
     display: grid;
     height: 90%;
     width: 20%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(192, 22, 22, 0.4);
     margin-top: 20px;
     border-radius: 15px;
 }
@@ -27,3 +27,5 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+a {}
