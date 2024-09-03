@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -122,6 +123,70 @@ nav {
 #main2 {
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(2, 2, 33);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skill {
+    background-color: rgb(5, 5, 56);
+    margin: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.skimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.sktxt {
+    display: grid;
+    grid-template-rows: 30% 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sktitl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sktitwr {
+    color: white;
+    font-size: calc(2.5rem - 18px);
+}
+
+.skdesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desw {
+    color: rgb(207, 200, 200);
+    font-size: 1.2rem;
+    text-align: center;
+    text-indent: 7px;
+}
+
+.back {
+    position: absolute;
+    z-index: -100;
 }
 
 #main3 {
