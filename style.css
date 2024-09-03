@@ -13,6 +13,19 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+ ::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 7px;
+}
+
 #main1 {
     height: 100vh;
     width: 100vw;
@@ -62,7 +75,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
 }
 
 .herocont {
@@ -118,6 +131,12 @@ nav {
     color: blue;
     background-color: transparent;
     border: 2px solid white;
+}
+
+.myn {
+    object-fit: contain;
+    width: auto;
+    height: 30%;
 }
 
 #main2 {
@@ -187,6 +206,7 @@ nav {
 .back {
     position: absolute;
     z-index: -100;
+    pointer-events: none;
 }
 
 #main3 {
