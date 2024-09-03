@@ -134,6 +134,9 @@ nav {
 }
 
 .heroimg {
+    display: flex;
+    justify-content: center;
+    align-items: end;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -143,6 +146,7 @@ nav {
 .myn {
     max-width: 80%;
     height: auto;
+    max-height: 95%;
 }
 
 #main2 {
