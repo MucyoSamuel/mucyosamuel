@@ -233,10 +233,137 @@ nav {
 .contact {
     width: 90%;
     height: 90%;
-    background-color: rgb(3, 3, 63);
+    background-color: transparent;
     border-radius: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.contlinks {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    background-color: rgb(0, 0, 32);
+}
+
+.contphra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contlinkits {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.contlinkits>a {
+    color: rgb(227, 221, 221);
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: all 0.5s;
+}
+
+.contlinkits>a :hover {
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: 20% 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.akiryo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.akwo {
+    font-size: 1.5rem;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    margin: 6px;
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#email {
+    margin: 6px;
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#tel {
+    color: white;
+    margin: 6px;
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+#message {
+    color: white;
+    margin: 10px;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    resize: none;
+}
+
+#subbut {
+    margin-top: 30px;
+    width: 60%;
+    height: 40%;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+#name::placeholder,
+#email::placeholder,
+#tel::placeholder,
+#message::placeholder {
+    color: rgb(222, 212, 212);
+}
+
+#subbut:hover {
+    border: 2px solid blue;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 #main4 {
