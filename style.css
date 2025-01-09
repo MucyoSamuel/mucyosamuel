@@ -452,4 +452,40 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    .hero{
+        display:flex;
+        flex-direction: column;
+    }
+ 
+    .herocont{
+        width: 100%;
+        height: 40%;
+        padding-top: 30%;
+    }
+    .heroimg{
+        width: 100%;
+        height: 60%;
+    }
+    .myn{
+        min-height: 100%;
+        padding: 0px;
+        margin: 2px;
+
+    } 
+    .hgod{
+        font-size: 2rem;
+    }
+    .hpes{
+        font-size: 1rem;
+        margin: 10px;
+    }
+    .callto{
+        margin: 5px;
+    }
+    .call{
+        width: 50vw;
+        font-size: 2rem;   
+     } 
+    
 }
+
